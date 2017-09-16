@@ -1,0 +1,44 @@
+.title{
+  text-align: center;
+  font-size: 2.8em;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  text-align: center;
+  width: 80%;
+  background-color: silver;
+  font-size: 1.5em;
+}
+
+.fedDog label{
+  margin-top: 2%;
+}
+
+.fedDog label, .fedCat label, .walkDog label {
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.newContainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.newContainer button{
+  width: 25%;
+  height: 80px;
+  line-height: 30px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.newContainer button span{
+  font-size: .75em;
+  font-weight: normal;
+}
